@@ -62,11 +62,6 @@
                 this.$emit("reload")
             }
         },
-        // mounted() {
-        //     this.$refs.player.dp.switchVideo({
-        //         url: "/video/" + this.$route.query.video,
-        //     })
-        // }
     }
 </script>
 
