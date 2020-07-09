@@ -28,7 +28,7 @@ func main() {
 		return
 	}
 
-	projectPath := os.Getenv("HOME") + "/go/src/github.com/greenhandatsjtu/video/video-frontend/dist/"
+	projectPath := os.Getenv("GOPATH") + "/src/github.com/greenhandatsjtu/video/video-frontend/dist/"
 	index := "index.html"
 	fileInfoList, _ := ioutil.ReadDir(wd)
 	for _, file := range fileInfoList {
