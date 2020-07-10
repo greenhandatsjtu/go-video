@@ -5,7 +5,7 @@ Local video streaming platform
 
 ## Features
 
-+ Cross paltform: Windows, Linux, macOS
++ Cross platform: Windows, Linux, macOS
 + All you need is an executable binary, no dependency
 + Automatic switch to night mode
 
@@ -15,7 +15,7 @@ Local video streaming platform
 
 + Add the executable to the PATH
 
-+ Serve a video directory. For example, on Linux,  enter `vudeo` and you can access to the streaming service by visiting `http://ip:8080`. Also, you can specify working directory and port.
++ Serve a video directory. For example, on Linux,  enter `vuedeo` and you can access to the streaming service by visiting `http://ip:8080`. Also, you can specify working directory and port.
 
 + `CLI` usage:
 
