@@ -7,7 +7,7 @@
     >
         <v-list-item three-line>
             <v-list-item-content>
-                <v-list-item-title class="headline mb-1">{{file}}</v-list-item-title>
+                <v-list-item-title class="headline mb-1">{{file.substring(0,file.lastIndexOf('.'))}}</v-list-item-title>
                 <v-list-item-subtitle v-clipboard:copy="videoRoot+file" v-clipboard:success="onCopy">
                     {{videoRoot}}{{file}}
                 </v-list-item-subtitle>

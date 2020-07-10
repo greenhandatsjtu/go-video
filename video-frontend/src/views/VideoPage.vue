@@ -3,16 +3,16 @@
         <v-row justify="center" class="mx-auto">
             <v-card class="mx-2" id="card">
                 <vue-d-player :options="playerOptions" ref="player"></vue-d-player>
-                <v-card-title>{{$route.query.video.split(".")[0]}}</v-card-title>
+                <v-card-title>{{$route.query.video.substring(0,$route.query.video.lastIndexOf('.'))}}</v-card-title>
             </v-card>
         </v-row>
-        <v-btn fixed fab left bottom x-large icon @click="toPrevious" color="blue accent-2">
+        <v-btn fixed fab left bottom x-large icon @click="toPrevious" color="blue accent-2" :disabled="$store.state.videos.indexOf($route.query.video)===0">
             <v-icon>
                 mdi-arrow-left-bold
             </v-icon>
         </v-btn>
         <v-spacer></v-spacer>
-        <v-btn fixed fab right bottom x-large icon @click="toNext" color="red">
+        <v-btn fixed fab right bottom x-large icon @click="toNext" color="red" :disabled="$store.state.videos.indexOf($route.query.video)===$store.state.videos.length-1">
             <v-icon>
                 mdi-arrow-right-bold
             </v-icon>
