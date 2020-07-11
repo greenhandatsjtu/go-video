@@ -1,7 +1,7 @@
-# vuedeo
+# go-video
 Local video streaming platform
 
-`vuedeo` is a local video streaming platform developed with `Go` and `Vue`. Serving a video directory with `vuedeo`, you can watch videos anywhere in your house, on mobile, notebook, pad and so on.
+go-video(`vuedeo`) is a local video streaming platform developed with `Go` and `Vue`. Serving a video directory with `vuedeo`, you can watch videos anywhere in your house, on mobile, notebook, pad and so on.
 
 ## Features
 
@@ -20,7 +20,7 @@ Local video streaming platform
 + `CLI` usage:
 
   ```
-  Usage of ./vuedeo_linux:
+  Usage of vuedeo:
     -P string
           Specify working dir. (default "{current directory}")
     -h    Show help.
