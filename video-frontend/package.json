@@ -19,7 +19,7 @@
     "@vue/cli-plugin-babel": "~4.4.0",
     "@vue/cli-plugin-router": "^4.4.6",
     "@vue/cli-service": "~4.4.0",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "sass": "^1.19.0",
     "sass-loader": "^8.0.0",
     "vue-cli-plugin-axios": "0.0.4",
